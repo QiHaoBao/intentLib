@@ -1,0 +1,112 @@
+{
+@root_state
+    -Hello
+        #greetings
+        *No greetings? Be gentle please.
+    -Hello, I can tell you fire situations if you ask.
+@wait_question_1
+    -Are there fires burning now over the United States?
+        #A12
+        *Wrong question12!
+    -Yes.
+@wait_question_2
+}
+
+{
+@wait_question_2
+    -How many?
+        #A25
+        *Wrong question25!
+    -2 fires.
+@wait_question_5
+}
+
+{
+@wait_question_2
+    -Are there any in California?
+        #A23
+        *Wrong question23!
+    -Yes.
+@wait_question_3
+}
+
+{
+@wait_question_5
+    -Are there any in California?
+        #A53
+        *Wrong question53!
+    -Yes.
+@wait_question_3
+}
+
+{
+@wait_question_1
+    -Are there any fire in California?
+        #A13
+        *Wrong question13!
+    -Yes.
+@wait_question_3
+}
+
+{
+@wait_question_3
+    -How many?
+        #A36
+        *Wrong question36!
+    -12 fires.
+@wait_question_6
+}
+
+{
+@wait_question_6
+    -Where in California?
+        #greetings68
+        *Wrong question68!
+    -Santa Rosa.
+@wait_question_8
+}
+
+{
+@wait_question_1
+    -Are there any fire in Santa Rosa?
+        #A14
+        *Wrong question14!
+    -Yes.
+@wait_question_4
+}
+
+{
+@wait_question_3
+    -Are there any fire in Santa Rosa?
+        #A34
+        *Wrong question34!
+    -Yes.
+@wait_question_4
+}
+
+{
+@wait_question_6
+    -Are there any fire in Santa Rosa?
+        #A64
+        *Wrong question64!
+    -Yes.
+@wait_question_4
+}
+
+{
+@wait_question_4
+    -How many?
+        #A47
+        *Wrong question47!
+    -3 fires.
+@wait_question_7
+}
+
+{
+@wait_question_7
+    -That's enough, thank you.
+        #greetings7e
+        *Wrong question7e!
+    -Bye.
+@end_state
+}
