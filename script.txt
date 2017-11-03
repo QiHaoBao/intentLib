@@ -3,7 +3,7 @@
     -Hello
         #greetings
         *No greetings? Be gentle please.
-    -Hello, I can tell you fire situations if you ask.
+    -Hello, I am your digital research assistant. You can call me Deera. How can I help you today. 
 @wait_question_1
     -Are there fires burning now over the United States?
         #A12
