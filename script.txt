@@ -3,7 +3,7 @@
     -Hello
         #greetings
         *No greetings? Be gentle please.
-    -Hello, I am your digital research assistant. You can call me Deera. How can I help you today. 
+    -Hello, I am your digital research assistant. You can call me Deera. How can I help you today.
 @wait_question_1
     -Are there fires burning now over the United States?
         #A12
@@ -23,7 +23,7 @@
 
 {
 @wait_question_2
-    -Are there any in California?
+    -Are there any fire in California?
         #A23
         *Wrong question23!
     -Yes.
@@ -32,7 +32,7 @@
 
 {
 @wait_question_5
-    -Are there any in California?
+    -Are there any fire in California?
         #A53
         *Wrong question53!
     -Yes.
