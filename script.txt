@@ -103,6 +103,15 @@
 }
 
 {
+@wait_question_1
+    -test
+        #testAllUser
+        *Wrong question15!
+    -_
+@wait_question_5
+}
+
+{
 @wait_question_7
     -That's enough, thank you.
         #greetings7e

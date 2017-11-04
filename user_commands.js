@@ -1,3 +1,6 @@
+
+var req = require('request')
+
 function getDateTime() {
     return new Date().toString().substring(16,24);
 }
@@ -7,7 +10,6 @@ function getDayOfTheWeek() {
         var day = new Date().getDay();
     return days[day];
     }
-
 
 module.exports = function(handler) {
     handler.on("#get_time", function(intentVariables, sessionId, next) {
@@ -21,6 +23,18 @@ module.exports = function(handler) {
       console.log(intentVariables);
       var replyVariables = {};
     	replyVariables['0'] = getDayOfTheWeek();
+    	next(replyVariables);
+    });
+
+    handler.on("#testAllUser", function(intentVariables, sessionId, next) {
+      var res = "";
+      req.get("http://hawking.sv.cmu.edu:9005/users/getAll", (err, resp, body) => {
+         console.log(err);
+         console.log(body);
+         res = body;
+      });
+      var replyVariables = {};
+    	replyVariables['0'] = res;
     	next(replyVariables);
     });
 };

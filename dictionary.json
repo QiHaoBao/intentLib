@@ -35,6 +35,9 @@
       "@enough": {
         "enough": []
       },
+      "@test": {
+        "test": []
+      },
       "@ago": {
         "ago": ["past"]
       },
