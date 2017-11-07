@@ -5,14 +5,29 @@
     	    "Hello": ["Hi", "Yo", "Howdy", "Aloha"],
     	    "Hey": []
     	},
+    	"@time": {
+    	    "time": []
+    	},
+      "@week": {
+          "week": []
+      },
       "@be": {
         "be": ["is", "are", "was", "were", "been", "being"]
       },
-      "@there": {
+      "@therethere": {
         "there": []
+      },
+      "@fire": {
+        "fire": ["fires"]
+      },
+      "@now": {
+        "now": []
       },
       "@CheckNumber": {
         "how many": ["how much"]
+      },
+      "@State": {
+        "California": ["New York"]
       },
       "@where": {
         "where": []
@@ -22,6 +37,12 @@
       },
       "@test": {
         "test": []
+      },
+      "@ago": {
+        "ago": ["past"]
+      },
+      "@county": {
+        "county": ["Santa Rosa"]
       }
     }
 }

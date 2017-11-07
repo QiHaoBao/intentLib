@@ -3,119 +3,47 @@
     -Hello
         #greetings
         *No greetings? Be gentle please.
-    -Hello, I am your digital research assistant. You can call me Deera. How can I help you today.
+    -Hello, I am your digital research assistant. You can call me Deera. How can I help you today?
 @wait_question_1
-    -Are there fires burning now over the United States?
-        #A12
-        *Wrong question12!
-    -Yes.
-@wait_question_2
-}
-
-{
-@wait_question_2
-    -How many?
-        #A25
-        *Wrong question25!
-    -2 fires.
-@wait_question_5
-}
-
-{
-@wait_question_2
-    -Are there any fire in California?
-        #A23
-        *Wrong question23!
-    -Yes.
-@wait_question_3
-}
-
-{
-@wait_question_5
-    -Are there any fire in California?
-        #A53
-        *Wrong question53!
-    -Yes.
-@wait_question_3
+    -Are there fires burning now over United States?
+        #A1
+        *Sorry, I don't understand your question.
+    -_.
+@wait_question_1
 }
 
 {
 @wait_question_1
-    -Are there any fire in California?
-        #A13
-        *Wrong question13!
-    -Yes.
-@wait_question_3
-}
-
-{
-@wait_question_3
     -How many?
-        #A36
-        *Wrong question36!
-    -12 fires.
-@wait_question_6
+        #A21
+        *Sorry, I don't understand your question.
+    -There are _ fires.
+@wait_question_1
 }
 
 {
-@wait_question_6
+@wait_question_1
+    -How many fires are there?
+        #A22
+        *Sorry, I don't understand your question.
+    -There are _ fires.
+@wait_question_1
+}
+
+{
+@wait_question_1
     -Where in California?
-        #greetings68
-        *Wrong question68!
-    -Santa Rosa.
-@wait_question_8
+        #A3
+        *Sorry, I don't understand your question.
+    -It's in _.
+@wait_question_1
 }
 
 {
 @wait_question_1
-    -Are there any fire in Santa Rosa?
-        #A14
-        *Wrong question14!
-    -Yes.
-@wait_question_4
-}
-
-{
-@wait_question_3
-    -Are there any fire in Santa Rosa?
-        #A34
-        *Wrong question34!
-    -Yes.
-@wait_question_4
-}
-
-{
-@wait_question_6
-    -Are there any fire in Santa Rosa?
-        #A64
-        *Wrong question64!
-    -Yes.
-@wait_question_4
-}
-
-{
-@wait_question_4
-    -How many?
-        #A47
-        *Wrong question47!
-    -3 fires.
-@wait_question_7
-}
-
-{
-@wait_question_1
-    -test
-        #testAllUser
-        *Wrong question15!
-    -_
-@wait_question_5
-}
-
-{
-@wait_question_7
     -That's enough, thank you.
-        #greetings7e
-        *Wrong question7e!
-    -Bye.
+        #end
+        *Sorry, I don't understand your question.
+    -You're welcome. Bye.
 @end_state
 }
