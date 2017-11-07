@@ -84,10 +84,10 @@ module.exports = function(handler) {
           json: { "fireBurn": cities[getRandomInt(1, 500)].city}
         }, function(err, resp, body) {
         //  console.log(err);
-         console.log(body.fireBurn);
+         console.log(cities[getRandomInt(1, 500)].city);
          var replyVariables = {};
-         replyVariables['0'] = body.fireBurn;
-         next(body.fireBurn);
+         replyVariables['0'] = cities[getRandomInt(1, 500)].city;
+         next(cities[getRandomInt(1, 500)].city);
         });
     });
 };
