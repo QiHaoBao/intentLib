@@ -60,7 +60,7 @@ module.exports = function(handler) {
         //  console.log(err);
         //  console.log(body.fireBurn);
          var replyVariables = {};
-         replyVariables['0'] = body.fireBurn;
+         replyVariables['0'] = body.fireBurn.toString();
          next(replyVariables);
         });
     });
@@ -73,7 +73,7 @@ module.exports = function(handler) {
         //  console.log(err);
         //  console.log(body.fireBurn);
          var replyVariables = {};
-         replyVariables['0'] = body.fireBurn;
+         replyVariables['0'] = body.fireBurn.toString();
          next(replyVariables);
         });
     });

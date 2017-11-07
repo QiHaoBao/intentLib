@@ -5,11 +5,8 @@
     	    "Hello": ["Hi", "Yo", "Howdy", "Aloha"],
     	    "Hey": []
     	},
-      "@be": {
-        "be": ["is", "are", "was", "were", "been", "being"]
-      },
-      "@there": {
-        "there": []
+      "@bethere": {
+        "be there": ["is there", "are there", "was there", "were there", "been there", "being there", "am there"]
       },
       "@CheckNumber": {
         "how many": ["how much"]
