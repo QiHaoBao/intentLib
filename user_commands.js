@@ -58,10 +58,10 @@ module.exports = function(handler) {
           json: { "fireBurn": "Yes" }
         }, function(err, resp, body) {
         //  console.log(err);
-         console.log(body.fireBurn);
+        //  console.log(body.fireBurn);
          var replyVariables = {};
          replyVariables['0'] = body.fireBurn;
-         next(body.fireBurn);
+         next(replyVariables);
         });
     });
 
@@ -71,7 +71,7 @@ module.exports = function(handler) {
           json: { "fireBurn": "Yes" }
         }, function(err, resp, body) {
         //  console.log(err);
-         console.log(body.fireBurn);
+        //  console.log(body.fireBurn);
          var replyVariables = {};
          replyVariables['0'] = body.fireBurn;
          next(replyVariables);

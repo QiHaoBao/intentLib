@@ -26,7 +26,7 @@
     -How many fires are there?
         #A22
         *Sorry, I don't understand your question.
-    -There are _ fires.
+    -There are _ fire.
 @wait_question_1
 }
 
