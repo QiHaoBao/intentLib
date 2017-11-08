@@ -42,7 +42,7 @@ module.exports = function(handler) {
     handler.on("#A1", function(intentVariables, sessionId, next) {
       req.post({
           url: 'https://hawking.sv.cmu.edu:9003/dataset/DiRADemoA1',
-          json: { "fireBurn": "Yes" }
+          json: { "sessionId": sessionId, "fireBurn": "Yes" }
         }, function(err, resp, body) {
         //  console.log(err);
         //  console.log(body.fireBurn);
@@ -55,7 +55,7 @@ module.exports = function(handler) {
     handler.on("#A21", function(intentVariables, sessionId, next) {
       req.post({
           url: 'https://hawking.sv.cmu.edu:9003/dataset/DiRADemoA2',
-          json: { "fireBurn": "Yes" }
+          json: { "sessionId": sessionId, "fireBurn": "Yes" }
         }, function(err, resp, body) {
         //  console.log(err);
         //  console.log(body.fireBurn);
@@ -68,7 +68,7 @@ module.exports = function(handler) {
     handler.on("#A22", function(intentVariables, sessionId, next) {
       req.post({
           url: 'https://hawking.sv.cmu.edu:9003/dataset/DiRADemoA2',
-          json: { "fireBurn": "Yes" }
+          json: { "sessionId": sessionId, "fireBurn": "Yes"}
         }, function(err, resp, body) {
         //  console.log(err);
         //  console.log(body.fireBurn);
@@ -81,7 +81,7 @@ module.exports = function(handler) {
     handler.on("#A3", function(intentVariables, sessionId, next) {
       req.post({
           url: 'https://hawking.sv.cmu.edu:9003/dataset/DiRADemoA3',
-          json: { "fireBurn": cities[getRandomInt(1, 500)].city}
+          json: { "sessionId": sessionId, "fireBurn": cities[getRandomInt(1, 500)].city}
         }, function(err, resp, body) {
         //  console.log(err);
         //  console.log(cities[getRandomInt(1, 500)].city);
