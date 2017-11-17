@@ -83,11 +83,11 @@ module.exports = function(handler) {
           url: 'https://hawking.sv.cmu.edu:9003/dataset/DiRADemoA3',
           json: { "sessionId": sessionId, "fireBurn": cities[getRandomInt(1, 500)].city}
         }, function(err, resp, body) {
-        //  console.log(err);
+         console.log(err);
         //  console.log(cities[getRandomInt(1, 500)].city);
          var replyVariables = {};
          console.log(body);
-         replyVariables['0'] = body;
+         replyVariables['0'] = body.toString();
          next(replyVariables);
         });
     });
