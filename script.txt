@@ -35,7 +35,7 @@
     -Where in California?
         #A3
         *Sorry, I don't understand your question.
-    -It's in _.
+    -_
 @wait_question_1
 }
 
