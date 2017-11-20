@@ -87,7 +87,7 @@ module.exports = function(handler) {
         //  console.log(cities[getRandomInt(1, 500)].city);
          var replyVariables = {};
          console.log(body);
-         replyVariables['0'] = body.toString();
+         replyVariables['0'] = body;
          next(replyVariables);
         });
     });
