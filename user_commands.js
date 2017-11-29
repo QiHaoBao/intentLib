@@ -40,7 +40,7 @@ module.exports = function(handler) {
             }, function(err, resp, body) {
              console.log(body);
              var replyVariables = {};
-             replyVariables['0'] = body;
+             replyVariables['0'] = body.toString();
              next(replyVariables);
             });
         });
