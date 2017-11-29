@@ -34,6 +34,6 @@
       },
       "@weather": {
         "weather services": ["weather service"]
-      },
+      }
     }
 }
