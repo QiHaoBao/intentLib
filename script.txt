@@ -3,44 +3,94 @@
     -Hello
         #greetings
         *No greetings? Be gentle please.
-    -Hello, I am your digital research assistant. You can call me Deera. How can I help you today?
-@wait_question_1
-    -Are there fires burning now over United States?
-        #A1
-        *Sorry, I don't understand your question.
-    -_.
-@wait_question_1
+    -Hello, I am your digital research assistant. You can call me Deera. I can help you on fire or weather services. How can I help you? Fire or weather?
+@service_selecting
 }
 
 {
-@wait_question_1
+@service_selecting
+    -fire services.
+        #Fire_1
+        *Sorry, please choose from services list provided only.
+    -Ok, I can provide fire services.
+@fire
+}
+
+{
+@fire
     -How many?
         #A21
         *Sorry, I don't understand your question.
     -There are _ fires.
-@wait_question_1
+@fire
 }
 
 {
-@wait_question_1
+@fire
     -How many fires are there?
         #A22
         *Sorry, I don't understand your question.
     -There are _ fires.
-@wait_question_1
+@fire
 }
 
 {
-@wait_question_1
+@fire
     -Where in California?
         #A3
         *Sorry, I don't understand your question.
     -_
-@wait_question_1
+@fire
 }
 
 {
-@wait_question_1
+@fire
+    -That's enough, thank you.
+        #end
+        *Sorry, I don't understand your question.
+    -You're welcome. Bye.
+@end_state
+}
+
+
+{
+@service_selecting
+    -Weather services.
+        #Weather_1
+        *Sorry, please choose from services list provided only.
+    -Ok, I can provide weather services.
+@weather
+}
+
+{
+@weather
+    -How much hotter would Chicago be on July 15, 2050 compared to July 15, 2017?
+        #Weather_1
+        *Sorry, I don't understand your question.
+    -I suggest  that you use the GDDP data on OpenNEX for this.
+@weather
+}
+
+{
+@weather
+    -Where can I get the dataset?
+        #Weather_2
+        *Sorry, I don't understand your question.
+    -You can go to OpenNEX website, and click Data button to go to Data Store.
+@weather
+}
+
+{
+@weather
+    -How to process the data?
+        #Weather_3
+        *Sorry, I don't understand your question.
+    -You can simply access the data for the two years and compare the temperatures for the two days.
+@weather
+}
+
+{
+@weather
     -That's enough, thank you.
         #end
         *Sorry, I don't understand your question.

@@ -19,6 +19,15 @@
       },
       "@test": {
         "test": []
+      },
+      "@HowMuch": {
+        "how much": []
+      },
+      "@compared": {
+        "compared": []
+      },
+      "@data": {
+        "data": []
       }
     }
 }
