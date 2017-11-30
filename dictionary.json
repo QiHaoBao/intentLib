@@ -32,8 +32,11 @@
       "@fire": {
         "fire services": ["fire service"]
       },
-      "@weather": {
-        "weather services": ["weather service"]
+      "@climate": {
+        "climate services": ["climate service"]
+      },
+      "@restart": {
+        "restart": []
       }
     }
 }
