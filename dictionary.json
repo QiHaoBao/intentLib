@@ -36,7 +36,7 @@
         "climate services": ["climate service"]
       },
       "@restart": {
-        "restart": []
+        "restart": ["return", "go back"]
       }
     }
 }
