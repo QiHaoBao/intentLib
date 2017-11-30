@@ -18,6 +18,15 @@
 
 {
 @fire
+    -Are there fires burning now over United States?
+        #A1
+        *Sorry, I don't understand your question.
+    -_.
+@fire
+
+}
+{
+@fire
     -How many?
         #A21
         *Sorry, I don't understand your question.
