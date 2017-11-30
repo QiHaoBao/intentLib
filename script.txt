@@ -91,7 +91,7 @@
 
 {
 @climate
-    -Where can I get the dataset?
+    -Where can I get the data set?
         #climate_2
         *Sorry, I don't understand your question.
     -You can go to OpenNEX website, and click Data button to go to Data Store.
