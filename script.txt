@@ -57,7 +57,7 @@
     -restart
         #Fire_restart
         *Sorry, I don't understand your question.
-    -Returned to root.
+    -Returned to root. Fire services or climate services?
 @root_state
 }
 
@@ -112,7 +112,7 @@
     -restart
         #climate_restart
         *Sorry, I don't understand your question.
-    -Returned to root.
+    -Returned to root. Fire services or climate services?
 @root_state
 }
 
