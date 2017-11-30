@@ -74,7 +74,7 @@
 {
 @service_selecting
     -climate services.
-        #climate_1
+        #climate_0
         *Sorry, please choose from services list provided only.
     -Ok, I can provide climate services. Tell me your question.
 @climate
