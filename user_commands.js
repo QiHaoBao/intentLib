@@ -52,7 +52,7 @@ commandScripts = [{"name":"#A1", "type":0, "url":"https://hawking.sv.cmu.edu:900
                   {"name":"#A21", "type":0, "url":"https://hawking.sv.cmu.edu:9003/dataset/DiRADemoA2"},
                   {"name":"#A22", "type":0, "url":"https://hawking.sv.cmu.edu:9003/dataset/DiRADemoA2"},
                   {"name":"#A3", "type":1, "url":"https://hawking.sv.cmu.edu:9003/dataset/DiRADemoA3"}];
-
+//
 function getRandomInt(min, max) {
   min = Math.ceil(min);
   max = Math.floor(max);
