@@ -3,7 +3,7 @@
     -Hello
         #greetings
         *No greetings? Be gentle please.
-    -Hello, I am your digital research assistant. You can call me Deera. I can help you on fire or climate services. How can I help you? Fire services or climate services?
+    -Hello, I am MATA. I can help you on fire or climate services. How can I help you? Fire services or climate services?
 @service_selecting
 }
 
